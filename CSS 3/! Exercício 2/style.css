@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    margin: 20px;
+}
+
+ul > li{
+    background-color: #1f1f1f;
+    color: #fff;
+    display: inline-block;
+    margin: 20px;
+    padding-bottom: 200px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.selected{
+    border-color: #0084ff;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.hidden{
+    display: none;
+}

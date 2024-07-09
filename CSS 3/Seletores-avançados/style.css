@@ -1,0 +1,36 @@
+/* seletor :nth-child()*/
+li:nth-child(2){
+    color: #f00;
+}
+
+li:nth-child(2n-1){
+    color: #b35e0a;
+}
+
+/* Fundos ao passar o mouse ou clicar */
+li:hover{
+    background-color: #f5f5f5;
+}
+
+input:focus {
+    background-color: #f00;
+}
+
+/*  pseudo-elementos */
+li::before {
+    content: "(antes) ";
+}
+  
+li::after {
+    content: " (depois)";
+}
+
+/* */
+
+li:first-child {
+    color: rgb(255, 174, 0);
+}
+
+li:last-child {
+    color: rgb(255, 0, 179);
+}
